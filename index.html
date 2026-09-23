@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Alola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Visit Alola</h1>
+        <p>Your island adventure awaits</p>
+        
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main> 
+        <section id="about">
+            <h2>About Alola</h2>
+            <div class="about-content">
+                <img src="alola.jpg" alt="The Alola Region(yes from Pokemon im a nerd)">
+                <article>
+                    <h3>Explore the islands</h3>
+                    <p>Alola is a tropical region from Pokemon with beautiful beaches, exciting trails, and plenty of unique pokemon to discover. Spend your days exploring the islands, relaxing by the water, and trying local food</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="packages">
+            <h2>Travel Packages</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Package</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Beach Weekends</td>
+                            <td>2 days</td>
+                            <td>199$</td>
+                        </tr>
+                        <tr>
+                            <td>Island Explorer</td>
+                            <td>5 days</td>
+                            <td>$499</td>
+                        </tr>
+                        <tr>
+                            <td>Pokemon Adventures</td>
+                            <td>7 days</td>
+                            <td>$599</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section id="contact">
+            <h2>Ask About a Trip</h2>
+            <form action="#" method="get">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="package">Travel package</label>
+                <select id="package" name="package">
+                    <option value="weekend">Beach Weekend</option>
+                    <option value="explorer">Island Explorer</option>
+                    <option value="adventure">Pokemon Adventure</option>
+
+                </select>
+
+                <label for="comments">Questions or comments</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Visit Alola. A fictional travel brochure.</p>
+    </footer>
+
+</body>
+
+
+</html>
+
