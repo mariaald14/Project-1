@@ -1,4 +1,4 @@
-README
+
 Images of Responsive Design
 <img width="957" height="474" alt="desktop" src="https://github.com/user-attachments/assets/b2e135f0-5564-4343-a258-b4ad2069e320" />
 
